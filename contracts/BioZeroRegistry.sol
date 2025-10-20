@@ -120,3 +120,5 @@ contract BioZeroRegistry {
         return verifications[userIdHash];
     }
 }
+
+
