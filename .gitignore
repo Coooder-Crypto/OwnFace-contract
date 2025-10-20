@@ -1,7 +1,10 @@
-.env
 node_modules/
 artifacts/
 cache/
 typechain/
-coverage/
-*.log
+.env
+.scripts
+hardhat.config.ts
+package-lock.json
+package.json
+tsconfig.json
