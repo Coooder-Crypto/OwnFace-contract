@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-contract BioZeroRegistry {
+contract OwnFaceRegistry {
     address public recorder;
 
     struct Commitment {
@@ -120,5 +120,4 @@ contract BioZeroRegistry {
         return verifications[userIdHash];
     }
 }
-
 
